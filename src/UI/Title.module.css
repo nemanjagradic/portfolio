@@ -1,0 +1,25 @@
+.title {
+  position: relative;
+  width: fit-content;
+  font-family: "Signika Negative", sans-serif;
+  font-size: 30px;
+  padding-left: 80px;
+  margin-bottom: 20px;
+}
+
+.title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 18px;
+  width: 60px;
+  height: 1px;
+  background: #000;
+}
+
+@media screen and (max-width: 1000px) {
+  .title {
+    margin-bottom: 20px !important;
+    margin: auto;
+  }
+}

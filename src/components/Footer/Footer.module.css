@@ -1,0 +1,9 @@
+.footer {
+  font-family: "Signika Negative", sans-serif;
+}
+
+@media screen and (max-width: 650px) {
+  .footer h3 {
+    font-size: 16px;
+  }
+}
