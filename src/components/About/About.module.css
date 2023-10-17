@@ -6,7 +6,7 @@
   font-family: "Signika Negative", sans-serif;
   display: flex;
   flex-wrap: wrap;
-  height: 350px;
+  height: auto;
 }
 
 .about-col-img,
@@ -54,5 +54,11 @@
 @media screen and (max-width: 750px) {
   .about {
     height: 115vh;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .about-img {
+    width: 90%;
   }
 }

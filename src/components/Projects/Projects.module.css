@@ -113,13 +113,24 @@
   }
 }
 @media screen and (max-width: 700px) {
-  .project {
-    width: 90%;
-  }
   .project-view a {
     margin: 0 5px;
   }
   .project-content {
     height: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .project-col {
+    padding: 30px;
+  }
+  .program {
+    padding: 6px 12px;
+    margin-right: 10px;
+  }
+  .project-view a {
+    font-size: 18px;
+    padding: 6px 12px;
+    margin: 0 5px;
   }
 }

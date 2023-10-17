@@ -101,4 +101,7 @@
   .main-info-content h3::before {
     top: 13px;
   }
+  .big-image {
+    width: 90%;
+  }
 }

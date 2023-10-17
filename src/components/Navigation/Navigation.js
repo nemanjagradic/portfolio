@@ -26,9 +26,9 @@ function Navigation() {
         <AnimatePresence>
           {isShowNav && (
             <motion.div
-              initial={{ x: -500, opacity: 0.5 }}
-              animate={{ x: 0, opacity: 1 }}
-              exit={{ x: -500, opacity: 0 }}
+              initial={{ left: -500, opacity: 0.5 }}
+              animate={{ left: 0, opacity: 1 }}
+              exit={{ left: -500, opacity: 0 }}
               className={classes["responsive-nav-list"]}
               transition={{ duration: 0.5 }}
             >

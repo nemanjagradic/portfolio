@@ -18,7 +18,7 @@ const About = () => {
         <div className={classes["about-row"]}>
           <div className={classes["about-col-img"]}>
             <Reveal
-              hidden={{ opacity: 0, x: -70 }}
+              hidden={{ opacity: 0, x: -30 }}
               visible={{ opacity: 1, x: 0 }}
             >
               <div className={classes["about-img"]}>
@@ -28,7 +28,7 @@ const About = () => {
           </div>
           <div className={classes["about-col-content"]}>
             <Reveal
-              hidden={{ opacity: 0, x: 70 }}
+              hidden={{ opacity: 0, x: 30 }}
               visible={{ opacity: 1, x: 0 }}
             >
               <Title>About Me</Title>
