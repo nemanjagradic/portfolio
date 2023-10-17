@@ -95,34 +95,83 @@
 }
 
 .project-img:hover img {
-  transform: translateY(-71%);
   transition: transform 10s ease-in-out;
 }
 
+.project-col:nth-child(1) .project-img:hover img {
+  transform: translateY(-71%);
+}
 .project-col:nth-child(2) .project-img:hover img {
-  transform: translateY(-66%);
+  transform: translateY(-65%);
 }
 .project-col:nth-child(3) .project-img:hover img {
-  transform: translateY(-56%);
+  transform: translateY(-55%);
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1220px) {
   .project-col {
-    flex-basis: 70%;
-    margin: 0 auto;
+    flex-basis: 440px;
+  }
+  .project-col:nth-child(1) .project-img:hover img {
+    transform: translateY(-67%);
+  }
+  .project-col:nth-child(2) .project-img:hover img {
+    transform: translateY(-61%);
+  }
+  .project-col:nth-child(3) .project-img:hover img {
+    transform: translateY(-51%);
   }
 }
+
+@media screen and (max-width: 1100px) {
+  .project-col {
+    flex-basis: 650px;
+    margin: 0 auto;
+  }
+  .project-col:nth-child(1) .project-img:hover img {
+    transform: translateY(-80%);
+  }
+  .project-col:nth-child(2) .project-img:hover img {
+    transform: translateY(-75%);
+  }
+  .project-col:nth-child(3) .project-img:hover img {
+    transform: translateY(-69%);
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .project-col {
+    flex-basis: 480px;
+  }
+  .project-col:nth-child(1) .project-img:hover img {
+    transform: translateY(-72%);
+  }
+  .project-col:nth-child(2) .project-img:hover img {
+    transform: translateY(-65%);
+  }
+  .project-col:nth-child(3) .project-img:hover img {
+    transform: translateY(-55%);
+  }
+}
+
 @media screen and (max-width: 700px) {
   .project-view a {
     margin: 0 5px;
   }
-  .project-content {
-    height: auto;
-  }
 }
 @media screen and (max-width: 600px) {
   .project-col {
+    flex-basis: 380px;
     padding: 30px;
+  }
+  .project-col:nth-child(1) .project-img:hover img {
+    transform: translateY(-63%);
+  }
+  .project-col:nth-child(2) .project-img:hover img {
+    transform: translateY(-54%);
+  }
+  .project-col:nth-child(3) .project-img:hover img {
+    transform: translateY(-41%);
   }
   .program {
     padding: 6px 12px;
@@ -132,5 +181,20 @@
     font-size: 18px;
     padding: 6px 12px;
     margin: 0 5px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .project-col {
+    flex-basis: 270px;
+  }
+  .project-col:nth-child(1) .project-img:hover img {
+    transform: translateY(-50%);
+  }
+  .project-col:nth-child(2) .project-img:hover img {
+    transform: translateY(-39%);
+  }
+  .project-col:nth-child(3) .project-img:hover img {
+    transform: translateY(-22%);
   }
 }
