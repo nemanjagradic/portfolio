@@ -31,7 +31,7 @@ const About = () => {
               hidden={{ opacity: 0, x: 30 }}
               visible={{ opacity: 1, x: 0 }}
             >
-              <Title>About Me</Title>
+              <Title className={classes["about-title"]}>About Me</Title>
               <p>
                 I'm Nemanja Gradic, a dedicated junior front-end React developer
                 with a passion for crafting seamless digital experiences. I

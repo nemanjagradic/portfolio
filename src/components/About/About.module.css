@@ -35,6 +35,10 @@
   color: #5a5a5a;
 }
 
+.about-title {
+  width: fit-content;
+}
+
 @media screen and (max-width: 1000px) {
   .about-col-img,
   .about-col-content {

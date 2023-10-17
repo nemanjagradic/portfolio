@@ -102,3 +102,10 @@
     margin-bottom: 50px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .contact h2 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+}

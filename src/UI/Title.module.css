@@ -20,7 +20,10 @@
 @media screen and (max-width: 1000px) {
   .title {
     margin-bottom: 20px !important;
+    width: 90%;
     margin: auto;
+    padding-left: 70px;
+    font-size: 28px;
   }
 }
 
