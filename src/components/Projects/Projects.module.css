@@ -187,14 +187,18 @@
 @media screen and (max-width: 450px) {
   .project-col {
     flex-basis: 270px;
+    padding: 20px;
+  }
+  .project-content {
+    height: 290px;
   }
   .project-col:nth-child(1) .project-img:hover img {
-    transform: translateY(-50%);
+    transform: translateY(-54%);
   }
   .project-col:nth-child(2) .project-img:hover img {
-    transform: translateY(-39%);
+    transform: translateY(-44%);
   }
   .project-col:nth-child(3) .project-img:hover img {
-    transform: translateY(-22%);
+    transform: translateY(-28%);
   }
 }

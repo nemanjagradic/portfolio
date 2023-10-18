@@ -24,9 +24,13 @@ nav h3 {
 .main-nav ul li {
   display: inline-block;
   padding: 0 15px;
-  font-weight: bold;
   border-bottom: 5px;
+}
+
+.main-nav ul li a {
+  cursor: pointer;
   font-size: 18px;
+  font-weight: bold;
 }
 
 .active {
