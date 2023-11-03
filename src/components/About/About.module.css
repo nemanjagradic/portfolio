@@ -38,6 +38,7 @@
 .icons {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .icon {
@@ -78,6 +79,9 @@
   .about {
     height: 110vh;
   }
+  .icons {
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -86,8 +90,14 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .about-img {
     width: 90%;
+  }
+  .about {
+    height: 125vh;
+  }
+  .icon {
+    margin-top: 8px;
   }
 }

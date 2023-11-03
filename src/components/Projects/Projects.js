@@ -29,7 +29,7 @@ const Projects = () => {
           >
             <div className={classes["project"]}>
               <div className={classes["project-content"]}>
-                <h3>Nouhotel - Booking Room App</h3>
+                <h3>Nouhotel - Booking Room Website</h3>
                 <p>
                   Booking application that provides users with the reservation
                   of luxury rooms. On the application, you can choose a room,
@@ -61,7 +61,7 @@ const Projects = () => {
           >
             <div className={classes["project"]}>
               <div className={classes["project-content"]}>
-                <h3>Ico crypto - Cryptocurrency website</h3>
+                <h3>Ico crypto - Cryptocurrency Website</h3>
                 <p>
                   Coindom is a crypto app that allows users to search for
                   information about various cryptocurrencies in real-time.
@@ -92,10 +92,10 @@ const Projects = () => {
           >
             <div className={classes["project"]}>
               <div className={classes["project-content"]}>
-                <h3>Miini - E-commerce website</h3>
+                <h3>Miini - E-Commerce Website</h3>
                 <p>
-                  Coindom is a crypto app that allows users to search for
-                  information about various cryptocurrencies in real-time.
+                  Main focus of this website is on simplicity to make easier so
+                  that users can find and buy a specific product with ease.
                 </p>
                 <div className={classes["project-programs"]}>
                   <span className={classes.program}>React</span>
@@ -123,10 +123,12 @@ const Projects = () => {
           >
             <div className={classes["project"]}>
               <div className={classes["project-content"]}>
-                <h3>Realestate.com - Real estate website</h3>
+                <h3>Realestate.com - Real Estate Website</h3>
                 <p>
-                  Coindom is a crypto app that allows users to search for
-                  information about various cryptocurrencies in real-time.
+                  Real estate website where users can search for diverse range
+                  of properties available for purchase or rent with various
+                  filters and location to fulfill their needs. This site is done
+                  with almost no vanilla css.
                 </p>
                 <div className={classes["project-programs"]}>
                   <span className={classes.program}>React</span>

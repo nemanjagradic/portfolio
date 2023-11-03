@@ -188,6 +188,9 @@
   .project-col:nth-child(4) .project-img:hover img {
     transform: translateY(-32%);
   }
+  .project-col:nth-child(4) .project-content {
+    height: 320px;
+  }
   .program {
     padding: 6px 12px;
     margin-right: 10px;
