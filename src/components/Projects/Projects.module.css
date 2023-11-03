@@ -107,6 +107,9 @@
 .project-col:nth-child(3) .project-img:hover img {
   transform: translateY(-55%);
 }
+.project-col:nth-child(4) .project-img:hover img {
+  transform: translateY(-48%);
+}
 
 @media screen and (max-width: 1220px) {
   .project-col {
@@ -120,6 +123,9 @@
   }
   .project-col:nth-child(3) .project-img:hover img {
     transform: translateY(-51%);
+  }
+  .project-col:nth-child(4) .project-img:hover img {
+    transform: translateY(-43%);
   }
 }
 
@@ -137,6 +143,9 @@
   .project-col:nth-child(3) .project-img:hover img {
     transform: translateY(-69%);
   }
+  .project-col:nth-child(4) .project-img:hover img {
+    transform: translateY(-64%);
+  }
 }
 
 @media screen and (max-width: 850px) {
@@ -151,6 +160,9 @@
   }
   .project-col:nth-child(3) .project-img:hover img {
     transform: translateY(-55%);
+  }
+  .project-col:nth-child(4) .project-img:hover img {
+    transform: translateY(-49%);
   }
 }
 
@@ -172,6 +184,9 @@
   }
   .project-col:nth-child(3) .project-img:hover img {
     transform: translateY(-41%);
+  }
+  .project-col:nth-child(4) .project-img:hover img {
+    transform: translateY(-32%);
   }
   .program {
     padding: 6px 12px;
@@ -200,5 +215,8 @@
   }
   .project-col:nth-child(3) .project-img:hover img {
     transform: translateY(-28%);
+  }
+  .project-col:nth-child(4) .project-img:hover img {
+    transform: translateY(-18%);
   }
 }

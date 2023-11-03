@@ -116,6 +116,36 @@ const Projects = () => {
               </div>
             </div>
           </Reveal>
+          <Reveal
+            hidden={{ opacity: 0, y: 70 }}
+            visible={{ opacity: 1, y: 0 }}
+            className={classes["project-col"]}
+          >
+            <div className={classes["project"]}>
+              <div className={classes["project-content"]}>
+                <h3>Realestate.com - Real estate website</h3>
+                <p>
+                  Coindom is a crypto app that allows users to search for
+                  information about various cryptocurrencies in real-time.
+                </p>
+                <div className={classes["project-programs"]}>
+                  <span className={classes.program}>React</span>
+                  <span className={classes.program}>Chakra UI</span>
+                </div>
+                <div className={classes["project-view"]}>
+                  <a href="https://github.com/nemanjagradic/Real-estate">
+                    Code <FontAwesomeIcon icon={faGithub} />
+                  </a>
+                  <a href="https://realestatecom.netlify.app/">
+                    Live Demo <FontAwesomeIcon icon={faUpRightFromSquare} />
+                  </a>
+                </div>
+              </div>
+              <div className={classes["project-img"]}>
+                <img src="./images/project-4.png" alt="project-4" />
+              </div>
+            </div>
+          </Reveal>
         </div>
       </div>
     </div>
