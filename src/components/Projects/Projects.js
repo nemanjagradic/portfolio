@@ -44,7 +44,11 @@ const Projects = () => {
                   <a href="https://github.com/nemanjagradic/Nouhotel">
                     Code <FontAwesomeIcon icon={faGithub} />
                   </a>
-                  <a href="https://nouhotel.netlify.app/">
+                  <a
+                    href="https://nouhotel.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Live Demo <FontAwesomeIcon icon={faUpRightFromSquare} />
                   </a>
                 </div>
@@ -75,7 +79,11 @@ const Projects = () => {
                   <a href="https://github.com/nemanjagradic/Ico-cryptocurrency">
                     Code <FontAwesomeIcon icon={faGithub} />
                   </a>
-                  <a href="https://ico-crypto.netlify.app/">
+                  <a
+                    href="https://ico-crypto.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Live Demo <FontAwesomeIcon icon={faUpRightFromSquare} />
                   </a>
                 </div>
@@ -106,7 +114,11 @@ const Projects = () => {
                   <a href="https://github.com/nemanjagradic/miini-e-commerce">
                     Code <FontAwesomeIcon icon={faGithub} />
                   </a>
-                  <a href="https://miini-e-commerce.netlify.app/">
+                  <a
+                    href="https://miini-e-commerce.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Live Demo <FontAwesomeIcon icon={faUpRightFromSquare} />
                   </a>
                 </div>
@@ -138,7 +150,11 @@ const Projects = () => {
                   <a href="https://github.com/nemanjagradic/Real-estate">
                     Code <FontAwesomeIcon icon={faGithub} />
                   </a>
-                  <a href="https://realestatecom.netlify.app/">
+                  <a
+                    href="https://realestatecom.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Live Demo <FontAwesomeIcon icon={faUpRightFromSquare} />
                   </a>
                 </div>
