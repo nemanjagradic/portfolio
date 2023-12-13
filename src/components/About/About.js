@@ -43,17 +43,12 @@ const About = () => {
               <h2>Tech Stack</h2>
               <div className={classes.icons}>
                 <img
-                  src="https://skillicons.dev/icons?i=html,css,javascript,react"
+                  src="https://skillicons.dev/icons?i=html,css,bootstrap,javascript,react,sass,tailwind"
                   alt="icons"
                 />
                 <div className={classes.icon}>
                   <img src="images/chakraui.png" alt="chakraui icon"></img>
                 </div>
-                <img
-                  src="https://skillicons.dev/icons?i=bootstrap"
-                  alt="bootstrap icon"
-                  style={{ marginLeft: "8px" }}
-                />
                 <div className={classes.icon}>
                   <img src="images/jira.png" alt="jira icon"></img>
                 </div>

@@ -107,8 +107,7 @@ const Projects = () => {
                 </p>
                 <div className={classes["project-programs"]}>
                   <span className={classes.program}>React</span>
-                  <span className={classes.program}>CSS</span>
-                  <span className={classes.program}>Bootstrap</span>
+                  <span className={classes.program}>Tailwind CSS</span>
                 </div>
                 <div className={classes["project-view"]}>
                   <a href="https://github.com/nemanjagradic/miini-e-commerce">
@@ -139,8 +138,7 @@ const Projects = () => {
                 <p>
                   Real estate website where users can search for diverse range
                   of properties available for purchase or rent with various
-                  filters and location to fulfill their needs. This site is done
-                  with almost no vanilla css.
+                  filters and location to fulfill their needs.
                 </p>
                 <div className={classes["project-programs"]}>
                   <span className={classes.program}>React</span>
