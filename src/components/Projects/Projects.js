@@ -72,8 +72,7 @@ const Projects = () => {
                 </p>
                 <div className={classes["project-programs"]}>
                   <span className={classes.program}>React</span>
-                  <span className={classes.program}>CSS</span>
-                  <span className={classes.program}>Bootstrap</span>
+                  <span className={classes.program}>SCSS</span>
                 </div>
                 <div className={classes["project-view"]}>
                   <a href="https://github.com/nemanjagradic/Ico-cryptocurrency">
