@@ -67,8 +67,9 @@ const Projects = () => {
               <div className={classes["project-content"]}>
                 <h3>Ico crypto - Cryptocurrency Website</h3>
                 <p>
-                  Coindom is a crypto app that allows users to search for
-                  information about various cryptocurrencies in real-time.
+                  Ico Crypto is a crypto app that allows users to search for
+                  information and showing more details about different
+                  cryptocurrencies in real-time.
                 </p>
                 <div className={classes["project-programs"]}>
                   <span className={classes.program}>React</span>
